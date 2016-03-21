@@ -1,3 +1,10 @@
+var HtmlWebpackPlugin = require('html-webpack-plugin');
+var HtmlWebpackPluginConfig = new HtmlWebpackPlugin({
+  template: _dirname + '/app/index.html',
+  filename: 'index.html',
+  inject: 'body'
+})
+
 module.export = {
    entry: [
      '.app/index.js'
@@ -6,10 +13,11 @@ module.export = {
      path: _dirname + '/dist',
      filename: "index_bundle.js"
    },
-   module: [
+   module: {
      loaders: [
        {test: /\.js$/, exclude: /node_modules/, loader: "babel-loader"}
      ]
-   ]
+   },
+   plugins: [HtmlWebpackPluginConfig]
 
 }
