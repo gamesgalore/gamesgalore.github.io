@@ -1,7 +1,26 @@
 {
   "name": "gamesgalore",
   "version": "1.0.0",
+  "description": "games",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7"
+  },
   "devDependencies": {
     "babel-cli": "^6.6.5"
-  }
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gamesgalore/gamesgalore.github.io.git"
+  },
+  "author": "John Hattori and Luca Pellicoro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gamesgalore/gamesgalore.github.io/issues"
+  },
+  "homepage": "https://github.com/gamesgalore/gamesgalore.github.io#readme"
 }
