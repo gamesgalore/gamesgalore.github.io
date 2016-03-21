@@ -4,7 +4,8 @@
   "description": "games",
   "main": "index.js",
   "scripts": {
-    "production": "webpack -p"
+    "production": "webpack -p",
+    "start": "webpack-dev-server"
   },
   "author": "John Hattori and Luca Pellicoro",
   "license": "ISC",
