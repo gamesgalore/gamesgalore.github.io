@@ -3,6 +3,11 @@
   "version": "1.0.0",
   "description": "games",
   "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Hattori and Luca Pellicoro",
+  "license": "ISC",
   "dependencies": {
     "react": "^0.14.7",
     "react-dom": "^0.14.7"
@@ -16,15 +21,10 @@
     "webpack": "^1.12.14",
     "webpack-dev-server": "^1.14.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/gamesgalore/gamesgalore.github.io.git"
   },
-  "author": "John Hattori and Luca Pellicoro",
-  "license": "ISC",
   "bugs": {
     "url": "https://github.com/gamesgalore/gamesgalore.github.io/issues"
   },
